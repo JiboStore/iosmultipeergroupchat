@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-               BuildableName = "MultipeerGroupChat.app"
+               BuildableName = "chubi.app"
                BlueprintName = "MultipeerGroupChat"
                ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "chubi.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "chubi.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "chubi.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>
