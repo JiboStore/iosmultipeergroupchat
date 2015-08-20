@@ -64,7 +64,7 @@
 		7A9322ED179DB37300A3F7E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7AE14A1C1778F3EE009C8532 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
 		7AE14A1D1778F3EE009C8532 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
-		7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerGroupChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEDCFC1174695EA00947F1C /* chubi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chubi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEDCFC4174695EA00947F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AEDCFC6174695EA00947F1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7AEDCFC8174695EA00947F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,7 +117,7 @@
 		7AEDCFC2174695EA00947F1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */,
+				7AEDCFC1174695EA00947F1C /* chubi.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			);
 			name = MultipeerGroupChat;
 			productName = AdhocGroupChat;
-			productReference = 7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */;
+			productReference = 7AEDCFC1174695EA00947F1C /* chubi.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -242,6 +242,11 @@
 				CLASSPREFIX = AGC;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Apple, Inc.";
+				TargetAttributes = {
+					7AEDCFC0174695EA00947F1C = {
+						DevelopmentTeam = WKJ72QC69B;
+					};
+				};
 			};
 			buildConfigurationList = 7AEDCFBC174695EA00947F1C /* Build configuration list for PBXProject "MultipeerGroupChat" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -409,7 +414,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdhocGroupChat/MultipeerGroupChat-Prefix.pch";
 				INFOPLIST_FILE = "AdhocGroupChat/MultipeerGroupChat-Info.plist";
-				PRODUCT_NAME = MultipeerGroupChat;
+				PRODUCT_NAME = chubi;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -427,7 +432,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdhocGroupChat/MultipeerGroupChat-Prefix.pch";
 				INFOPLIST_FILE = "AdhocGroupChat/MultipeerGroupChat-Info.plist";
-				PRODUCT_NAME = MultipeerGroupChat;
+				PRODUCT_NAME = chubi;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
